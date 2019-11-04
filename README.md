@@ -25,7 +25,7 @@ url = 'https://sanantonio.craigslist.org/cto/d/some-car-ad'
 
   # Set your own error messages (not required).
   set_error(:wrong_website, 'Sorry, at the moment we only allow posts from Craigslist.')
-  set_error(:wrong_category, 'The Craigslist add you posted was not in the cars & trucks category.')
+  set_error(:wrong_category, 'The Craigslist ad you posted was not in the cars & trucks category.')
   
   # Require that some elements from the Craigslist post be present.
   require_element(:image)
